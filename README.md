@@ -17,3 +17,5 @@ Also included is a _.cfg_ file for the ECPIX-5 board that may be used to program
 ```bash
 openocd -f openocd-ecpix5.cfg -c "init" -c "svf -quiet top.svf" -c "exit"
 ```
+
+![Hardware Demo](fpga_timer.gif)
